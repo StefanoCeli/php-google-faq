@@ -6,80 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="assets/style.css">
     <title>Domande frequenti – Privacy e termini – Google</title>
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-        }
-        body{
-            font-family: 'Roboto', sans-serif;
-            font-size:14px;
-            color:rgba(0,0,0,0.87);
-            line-height:24px;
-        }
-        main{
-            padding:30px
-        }
-        .container{
-            max-width:978px;
-            margin:0 auto;
-        }
-        h2,h3{
-            font-weight:500;
-            color: #3C4043;
-            margin-top:60px;
-            margin-bottom:20px;
-            line-height:32px;
-        }
-        h2{
-            font-size:24px;
-        }
-        h3{
-            font-size:18px;
-        }
-        ol{
-            
-            margin-left:16px;
-        }
-        ol li{
-            padding-top:12px;
-            padding-left:16px;
-        }
-        main a{
-            color:#3367d6;
-            text-decoration:none;
-        }
-        footer{
-            background-color:#f5f5f5;
-        }
-        footer .container{
-            display:flex;
-            justify-content: space-between;
-            align-items:center;
-        }
-        footer .container select{
-            width:200px;
-        }
-        footer ul{
-            display:flex;
-            list-style:none;
-            padding:10px 0;
-        }
-        footer ul li:not(:first-child)::before{
-            content:"\0000b7";
-            padding:0 5px
-        }
-        footer ul li a{
-           text-decoration:none;
-           color:rgba(61,61,61.8);
-           font-size:11px;
-        }
-    </style>
-</head>
-<body>
-<?php 
+    <?php 
         $faqs=[
             [
                 'question' => "Come state implementando la recente decisione della Corte di giustizia dell'Unione europea (CGUE) relativa al diritto all'oblio?",
@@ -134,6 +63,10 @@
         ];
         
     ?>
+
+</head>
+<body>
+
 
    <header>
 
