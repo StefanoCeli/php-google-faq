@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="//ssl.gstatic.com/policies/favicon.ico" sizes="32x32"> 
+    <link rel="stylesheet" href="assets/styles/style.css">
     <title>Domande frequenti – Privacy e termini – Google</title>
     <?php 
         $faqs=[
@@ -69,7 +71,25 @@
 
 
    <header>
+       <div class="flex">
+            <div>
+                <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="google-logo">
+                <span>Privacy e termini</span>
+            </div>
 
+            <div>
+                <i class="fas fa-th"></i>
+                <img class="avatar" src="assets/img/avatar.png" alt="avatar">
+            </div>
+
+       </div>
+       <ul class="flex">
+           <li><a href="#">Introduzione</a></li>
+           <li><a href="#">Norme sulla privacy</a></li>
+           <li><a href="#">Termini di servizio</a></li>
+           <li><a href="#">Tecnologie</a></li>
+           <li class="active"><a href="#">Domande frequenti</a></li>
+       </ul>
    </header>
 
    <main>
@@ -84,9 +104,9 @@
    </main>
 
    <footer>
-            <div class="container">
+            <div class="container flex">
                     <div>
-                        <ul>
+                        <ul class="flex">
                             <li><a href="#">Google</a></li>
                             <li><a href="#">Tutto su Google</a></li>
                             <li><a href="#">Privacy</a></li>
